@@ -1,0 +1,251 @@
+* {
+    margin: o;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Roboto Mono", monospace;
+    
+}
+
+body {
+    background-color: #16161d;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: blueviolet;
+}
+
+header>img{
+    margin-top: 20px;
+width: 120px;
+height:120px;
+border-radius: 80px;
+}
+h1{
+    color: rgb(172, 172, 124);
+}
+.hamburguesa {
+
+    margin-right: 50px;
+    font-size: 45px;
+    position: relative;
+    top: 15px
+}
+
+h3 {
+    
+    text-align: center;
+
+}
+
+header a{
+    color: yellow;
+    text-decoration: none;
+   
+}
+header a:hover{
+    text-decoration: underline;
+    font-size: 17px;
+}
+/* pagina del registro */
+.registro {
+    width: 520px;
+    height: 570px;
+    background-color: rgb(148, 194, 234);
+    position: relative;
+    left: 870px;
+    top: 60px;
+    padding-top: 8px;
+    text-align: center;
+    border-radius: 15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bi,.correo{
+    color: #16161d ;
+    font-size: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+.encuadre{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.iconos{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 12px;
+    padding: 0px 10px 0 10px ;
+}
+.bi{
+    margin-bottom: 6px;
+}
+.iconos:hover,button:hover{
+    box-shadow: 2px 2px 6px #16161d;
+    transform: scale(1.1,1.1);
+}
+button{
+    height: 40px;
+    width: 120px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+}
+input{
+    padding-left: 5px;
+    margin-bottom: 10px;
+    height: 23px;
+    border-radius: 5px;
+}
+hr{
+    border: 2px solid #16161d;
+}
+
+.home{
+    position: relative;
+    display: inline-block;
+    right: 230px;
+    bottom: 10px;
+    font-size: 40px;
+    color: #16161d;
+}
+.home:hover{ transform: scale(1.2,1.2);
+
+}
+.tooltip {
+   
+    visibility: hidden;
+  width: 55px;
+  background-color: gray;
+  color: #f1eeee;
+  text-align: center;
+  border-radius: 6px;
+  padding: 2px 0;
+ position: absolute;
+  z-index: 1;
+  top: -33px;
+  right: 220px;
+  font-size: 10px;
+  }
+ .regreso:hover .tooltip{
+   
+    visibility: visible;
+}
+.regreso{display: inline-block;
+position: relative;
+}
+/* css para el menu aside */
+aside{position: fixed;
+    top: 170px;
+    padding-top: 20px;
+    width: 200px;
+    height: 350px;
+    background-color:blueviolet;
+    border: 2.3px solid yellow;
+}
+
+li, a{
+    color: rgb(221, 255, 0);
+}
+ul>li>a:hover{
+    text-decoration: underline;
+    background-color: rgb(175, 115, 231);
+   
+}
+/* MAIN */
+main{
+    padding-left: 200px;
+    flex-grow: 1;
+    padding-top: 35px;
+    padding-right: 35px;
+}
+.intro{
+    text-align: center;
+    color: brown;
+  
+    
+
+}
+.intro>img{
+    width: 700px;
+    height: 400px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.tituloatrak{text-align: center;
+    color: brown;
+
+}
+ .atracciones{
+    text-align: center;
+    color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.tarjetas{
+    width: 330px;
+    height:650px ;
+}
+.tarjetas>img{
+    width: 320px;
+    height: 450px;
+}
+
+/* css para las media */
+@media all and  (max-width: 600px){
+    .registro{
+        width: 400px;
+        height: 670px;
+        position: relative;
+        left: 0px;
+        top: 0;
+        margin-right: 12px;
+        
+}
+.home{
+    right: 175px;
+    bottom: -45px;
+}
+.hamburguesa{margin-right: 0;
+   
+}
+header{
+    padding-right: 10px;
+}
+
+button{margin-top: 30px;
+color: black;
+border: 1px solid black;}
+.iconos{
+    width: 187px;
+}
+}
+p{
+    color: #f1eeee;
+}

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Parque de Distracciones</title>
     <!-- <link rel="stylesheet" href="./horroland.css"> -->
     <script type="text/javascript" src="./funciones.js"></script>
     <div variable="./fraglinks.html"></div>
@@ -45,23 +45,49 @@
         <h2 class="tituloatrak">Atracciones</h2>
         <div class="atracciones">
             <div class="tarjetas">
+                <h4>APLASTATOR</h4>
                 <img src="./img/aplastator.jpg" alt="aplastator">
                 <p>Aquí podrás ponerte debajo del cabezudo y dejar que la gravedad haga el trabajo que llevas tanto
                     deseando.</p>
             </div>
             <div class="tarjetas">
+                <h4>PATITOS PATIRARTE</h4>    
                 <img src="./img/patitos.jpg" alt="patos">
                 <p>Montaña rusa llena de descarrilamientos al borde de una colina, la adrenalina esta servida.</p>
             </div>
             <div class="tarjetas">
+                <h4>FREDDY LLEGÓ</h4>
                 <img src="./img/freddy.jpg" alt="freddy">
-                <p>Por si no habías tenido suficiente en tus sueños, aquí podrás conocerl en persona y preguntarle todo
+                <p>Por si no habías tenido suficiente en tus sueños, aquí podrás conocerle en persona y preguntarle todo
                     aquello que te atemoriza, que te responda coherentemente es otra historia.</p>
             </div>
         </div>
 
-        <div class="tarjetas"></div>
+        <div class="tarjetas horarios">
+            <form action="input">
+                <label for="horario"><p>Ingresa aquí el día y a la hora que te dormirás para ir a visitarte.</p></label>
+                <input type="datetime-local" id="horario">
+
+         </form>
+         <p>Después de aceptar ya no habrá vuelta atrás.</p>
+         <button><b>ACEPTAR</b></button>
+         <p class="peque">El coste será solo el poder de tu sombra.</p>
+            
+        </div>
+
     </main>
+    <footer>
+        <h6> <u>Podrás encontrar más contenido o contactarnos en :</u></h6><br>
+        <div class="redes">
+       <a href="#"><span><b> <i><i class="bi bi-facebook"></i>   Parque de Distracciones</i></b></span></a>
+       <a href="#"><span> <i class="bi bi-google"></i>  Horromental@hardcore.sb</span></a>
+       <a href="#"><span> <i class="bi bi-telephone-inbound-fill"></i> <u><b>666 333 666</b></u></span></a>
+    </div>
+    <div class="ubicacion"><h6><u>Guardaremos tus residuos en:</u></h6></div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61783146.09199402!2d-176.33444669999997!3d19.066200700000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc7a923d67ad3%3A0x960eba0c6f76df29!2sBruma%20Horno%20de%20Fuego%20Eterno!5e0!3m2!1ses!2ses!4v1715678530132!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+  
+    
 </body>
 
 </html>

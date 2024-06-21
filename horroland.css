@@ -7,7 +7,7 @@ html,
 body {
     height: 100%;
     font-family: "Roboto Mono", monospace;
-    
+
 }
 
 body {
@@ -26,15 +26,18 @@ header {
     background-color: blueviolet;
 }
 
-header>img{
+header>img {
     margin-top: 20px;
-width: 120px;
-height:100px;
-border-radius: 80px;
+    width: 120px;
+    height: 100px;
+    border-radius: 80px;
+    border: 3.5px solid black;
 }
-h1{
+
+h1 {
     color: rgb(172, 172, 124);
 }
+
 .hamburguesa {
 
     margin-right: 50px;
@@ -44,20 +47,22 @@ h1{
 }
 
 h3 {
-    
+
     text-align: center;
 
 }
 
-header a{
+header a {
     color: yellow;
     text-decoration: none;
-   
+
 }
-header a:hover{
+
+header a:hover {
     text-decoration: underline;
     font-size: 17px;
 }
+
 /* pagina del registro */
 .registro {
     width: 520px;
@@ -68,26 +73,32 @@ header a:hover{
     top: 60px;
     padding-top: 8px;
     text-align: center;
-    border-radius: 15px ;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.bi,.correo{
-    color: #16161d ;
+
+.bi,
+.correo {
+    color: #16161d;
     font-size: 20px;
-    
+
 }
-a{
+
+a {
     text-decoration: none;
 }
-.encuadre{
+
+.encuadre {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
-.iconos{display: flex;
+
+.iconos {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 230px;
@@ -97,35 +108,41 @@ a{
     border: 1px solid black;
     margin: auto;
     margin-bottom: 12px;
-    padding: 0px 10px 0 10px ;
+    padding: 0px 10px 0 10px;
 }
-.bi{
+
+.bi {
     margin-bottom: 6px;
 }
-.iconos:hover,button:hover{
+
+.iconos:hover,
+button:hover {
     box-shadow: 2px 2px 6px #16161d;
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
-button{
+
+button {
     height: 40px;
     width: 120px;
     font-family: "Roboto Mono", monospace;
     font-size: 17px;
     border-radius: 20px;
     margin-top: 40px;
-    
+
 }
-input{
+
+input {
     padding-left: 5px;
     margin-bottom: 10px;
     height: 23px;
     border-radius: 5px;
 }
-hr{
+
+hr {
     border: 2px solid #16161d;
 }
 
-.home{
+.home {
     position: relative;
     display: inline-block;
     right: 230px;
@@ -133,66 +150,81 @@ hr{
     font-size: 40px;
     color: #16161d;
 }
-.home:hover{ transform: scale(1.2,1.2);
+
+.home:hover {
+    transform: scale(1.2, 1.2);
 
 }
+
 .tooltip {
-   
+
     visibility: hidden;
-  width: 55px;
-  background-color: gray;
-  color: #f1eeee;
-  text-align: center;
-  border-radius: 6px;
-  padding: 2px 0;
- position: absolute;
-  z-index: 1;
-  top: -33px;
-  right: 220px;
-  font-size: 10px;
-  }
- .regreso:hover .tooltip{
-   
+    width: 55px;
+    background-color: gray;
+    color: #f1eeee;
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 0;
+    position: absolute;
+    z-index: 1;
+    top: -33px;
+    right: 220px;
+    font-size: 10px;
+}
+
+.regreso:hover .tooltip {
+
     visibility: visible;
 }
-.regreso{display: inline-block;
-position: relative;
+
+.regreso {
+    display: inline-block;
+    position: relative;
 }
+
 /* css para el menu aside */
-aside{position: fixed;
+aside {
+    position: fixed;
     top: 135px;
     padding-top: 20px;
     width: 200px;
     height: 350px;
-    background-color:blueviolet;
+    background-color: blueviolet;
     border: 2.3px solid yellow;
 }
-p{
+
+p {
     color: #f1eeee;
 }
-li, a{
+
+li,
+a {
     color: rgb(221, 255, 0);
 }
-ul>li>a:hover{
+
+ul>li>a:hover {
     text-decoration: underline;
     background-color: rgb(175, 115, 231);
-   
+
 }
+
 /* MAIN */
-main{
+main {
     padding-left: 200px;
     flex-grow: 1;
     padding-top: 35px;
     padding-right: 35px;
 }
-.intro{
+
+.intro {
     text-align: center;
     color: brown;
-  
-    
+
+
 
 }
-.intro>img{
+
+.intro>img {
     width: 700px;
     height: 400px;
     margin-top: 35px;
@@ -200,47 +232,55 @@ main{
     border-radius: 20px;
     border: 3px solid red;
     box-shadow: 2px 2px 10px grey;
-    
+
 }
-.tituloatrak{text-align: center;
+
+.tituloatrak {
+    text-align: center;
     color: brown;
 
 }
- .atracciones{
+
+.atracciones {
     text-align: center;
     color: brown;
     display: flex;
-   
+
     justify-content: space-around;
-    
-   
+
+
 }
-h4{
+
+h4 {
     color: #16161d;
     text-decoration: underline;
-    
+
 }
-.tarjetas{
+
+.tarjetas {
     width: 330px;
-    height:650px ;
+    height: 650px;
     background-color: rgb(130, 93, 98);
     border: 3px solid red;
     border-radius: 0px 20px 0px 20px;
     margin-top: 27px;
 }
-.tarjetas:hover{transform: scale(1.2,1.1);
+
+.tarjetas:hover {
+    transform: scale(1.2, 1.1);
     box-shadow: 4px 4px 15px grey;
 
 }
 
-.tarjetas>img{
+.tarjetas>img {
     width: 320px;
     height: 450px;
     border-radius: 20px;
 }
-.horarios{
+
+.horarios {
     padding-top: 12px;
-    width:60%;
+    width: 60%;
     height: 200px;
     margin: auto;
     margin-top: 43px;
@@ -251,39 +291,72 @@ h4{
     animation-iteration-count: infinite;
     margin-bottom: 33px;
 }
-.peque{
+
+.peque {
     font-size: 8px;
 }
 
-p~button{margin-top: 5px;
-background-color: darkgray;}
+p~button {
+    margin-top: 5px;
+    background-color: darkgray;
+}
+
 @keyframes bota {
-    10%{ transform: scale(1.1,1.1);}
-    20%{ transform: scale(1,1);}
-    25%{ transform: scale(1.1,1.1);}
-    35%{ transform: scale(1,1);}
-    50%{transform: scale(1.1,1.1)}
-    55%{transform: scale(1,1);}
-    70%{transform: scale(1.1,1.1)}
-    85%{transform: scale(1,1);}
-   95% {transform: scale(1.1,1.1)}
-    
+    10% {
+        transform: scale(1.1, 1.1);
+    }
+
+    20% {
+        transform: scale(1, 1);
+    }
+
+    25% {
+        transform: scale(1.1, 1.1);
+    }
+
+    35% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1)
+    }
+
+    55% {
+        transform: scale(1, 1);
+    }
+
+    70% {
+        transform: scale(1.1, 1.1)
+    }
+
+    85% {
+        transform: scale(1, 1);
+    }
+
+    95% {
+        transform: scale(1.1, 1.1)
+    }
+
 
 }
+
 /* CSS PARA EL FOOTER */
-footer{
+footer {
     padding-left: 18px;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
     background-color: bisque;
-    
+
 }
-footer a{
-    color: #16161d ;
+
+footer a {
+    color: #16161d;
 }
-.redes{
+
+.redes {
     display: flex;
     flex-direction: column;
     margin-left: 18px;
@@ -291,41 +364,123 @@ footer a{
     width: 280px;
     border-right: 3.5px solid black;
 }
-iframe{
+
+iframe {
     margin: auto;
     width: 380px;
     height: 115px;
-   border-radius: 12px;
+    border-radius: 12px;
 }
-/* css para las media */
-@media all and  (max-width: 600px){
-    .registro{
+
+/* css para las media de ipad pro */
+@media all and (max-width: 1025px) {
+    .registro {
         width: 400px;
         height: 670px;
         position: relative;
         left: 0px;
         top: 0;
         margin-right: 12px;
-        
-}
-.home{
-    right: 175px;
-    bottom: -45px;
-}
-.hamburguesa{margin-right: 0;
-   
-}
-header{
-    padding-right: 10px;
+
+    }
+
+    .home {
+        right: 175px;
+        bottom: -45px;
+    }
+
+    .atracciones {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tarjetas {
+        width: 600px;
+    }
+
+    .horarios {
+        height: auto;
+    }
+
 }
 
-button{margin-top: 30px;
-color: black;
-border: 1px solid black;}
-.iconos{
-    width: 187px;
-}
-}
-p{
-    color: #f1eeee;
+/* medias para iphone 12 pro */
+@media all and (max-width: 600px) {
+    .registro {
+        width: 400px;
+        height: 670px;
+        position: relative;
+        left: 0px;
+        top: 0;
+        margin-right: 12px;
+
+    }
+
+    .home {
+        right: 175px;
+        bottom: -45px;
+    }
+
+    .hamburguesa {
+        margin-right: 0;
+
+    }
+
+    header {
+        flex-direction: column;
+        width: 390px;
+
+        text-align: center;
+
+
+    }
+
+    main {
+        padding-left: 3px;
+        padding-right: 3px;
+
+    }
+
+
+    .intro {
+        width: 390px;
+    }
+
+    .intro>img {
+        width: 330px;
+    }
+
+    aside {
+        display: none
+    }
+
+    .atracciones {
+        width: 390px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tarjetas {
+        width: 360px;
+    }
+
+    button {
+        margin-top: 30px;
+        color: black;
+        border: 1px solid black;
+    }
+
+    .iconos {
+        width: 187px;
+    }
+
+    .horarios {
+        height: auto;
+    }
+h6{margin-left: 7px;}
+    footer {
+flex-direction: column;
+padding: 0;
+        /* flex-wrap: wrap; */
+    }
 }
